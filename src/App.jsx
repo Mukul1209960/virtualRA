@@ -5,6 +5,8 @@ import FeatureSection from './components/FeatureSection';
 import WorkFlow from './components/WorkflowSection';
 import Pricing from './components/Pricing';
 import Testimonials from './components/Testimonials';
+import FooterSection from './components/FooterSection';
+
 
 export default function App(){
     return(
@@ -17,6 +19,8 @@ export default function App(){
         <WorkFlow />
         <Pricing />
         <Testimonials />
+        <FooterSection />
+        
         
         </>
     );
