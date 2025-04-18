@@ -5,7 +5,7 @@ import { pricingOptions } from "../constants";
 export default function Pricing(){
     return(
         <div className="mt-20">
-            <h2 className=" my-8 text-center text-3xl md:text-5xl lg:text-6xl bg-gradient-to-r from-white to-blue-800 text-transparent bg-clip-text tracking-wider">
+            <h2 className=" my-8 text-center text-3xl p-4 md:text-5xl lg:text-6xl bg-gradient-to-r from-white to-blue-800 text-transparent bg-clip-text tracking-wider">
                 Pricing
             </h2>
             <div className="flex flex-wrap ">

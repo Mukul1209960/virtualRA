@@ -4,7 +4,7 @@ import { testimonials } from '../constants';
 export default function Testimonials(){
     return(
         <div className="mt-20">
-            <h2 className="text-3xl md:text-5xl lg:text-6xl text-center tracking-wide bg-gradient-to-r from-white to-blue-600 text-transparent bg-clip-text">
+            <h2 className="text-3xl p-4 md:text-5xl lg:text-6xl text-center tracking-wide bg-gradient-to-r from-white to-blue-600 text-transparent bg-clip-text">
                 What people are Saying
             </h2>
             <div className="flex flex-wrap justify-center mt-5">
@@ -14,7 +14,7 @@ export default function Testimonials(){
                             <p className="text-sm mb-12">
                                 {feature.text}
                             </p>
-                            <div className="flex mt-8 items-start">
+                           <div className="flex mt-8 items-start">
                             <img src={feature.image} className="h-12 w-12 mr-6 rounded-full border border-neutral-300" alt={feature.user} />
                                  <div>
                                     <h6>{feature.user}</h6>
